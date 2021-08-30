@@ -33,7 +33,7 @@ class MovieDetailViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
-        
+        print("testing")
         // Do any additional setup after loading the view.
     }
     
