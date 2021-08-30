@@ -38,8 +38,6 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("testing")
-        print("test2")
         setup()
     }
     

@@ -17,7 +17,6 @@ class SavedViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("testing")
         savedMovieTableView.delegate = self
         savedMovieTableView.dataSource = self
         savedMovieTableView.register(UINib(nibName: Constants.SavedTableViewCell, bundle: nil), forCellReuseIdentifier: Constants.SavedTableViewCell)
