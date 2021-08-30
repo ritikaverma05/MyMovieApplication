@@ -38,7 +38,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("testing")
         setup()
     }
     
