@@ -250,6 +250,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
             vc.detailReleaseDateTF = trendingMovieList[indexPath.item].release_date ?? ""
             vc.detailRatingTF = "\(trendingMovieList[indexPath.item].vote_average!)"
             vc.detailPopularityTF = "\(trendingMovieList[indexPath.item].popularity!)"
+            
             vc.detailMovieOverview = trendingMovieList[indexPath.item].overview!
             vc.detailMovieImg = Constants.moviePosterUrl + trendingMovieList[indexPath.item].poster_path!
             
