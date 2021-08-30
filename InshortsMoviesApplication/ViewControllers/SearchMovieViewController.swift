@@ -30,7 +30,7 @@ class SearchMovieViewController: UIViewController, UITableViewDataSource, UITabl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //this is ritika
         setup()
         // Do any additional setup after loading the view.
     }
