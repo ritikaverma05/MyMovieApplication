@@ -30,7 +30,7 @@ class SearchMovieViewController: UIViewController, UITableViewDataSource, UITabl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("testdev")
+        // this is verma
         setup()
         // Do any additional setup after loading the view.
     }
